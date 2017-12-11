@@ -1,4 +1,4 @@
-package com.wrapperfactory;
+package com.wrapper.factory;
 
 import com.enums.Browsers;
 import org.openqa.selenium.WebDriver;

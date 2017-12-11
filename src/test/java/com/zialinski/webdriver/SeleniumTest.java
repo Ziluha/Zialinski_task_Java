@@ -1,14 +1,10 @@
 package com.zialinski.webdriver;
 
 import com.enums.Browsers;
-import com.wrapperfactory.BrowserFactory;
+import com.wrapper.factory.BrowserFactory;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class SeleniumTest {
     @Test
