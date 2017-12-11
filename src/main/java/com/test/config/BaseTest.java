@@ -2,6 +2,7 @@ package com.test.config;
 
 import com.driver.config.DriverConfig;
 import com.enums.Browsers;
+import com.files.properties.PropertiesReading;
 import com.wrapper.factory.BrowserFactory;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -31,7 +32,7 @@ public class BaseTest {
     @BeforeEach
     public void initTest(){
         chooseDriverInstance(browserName);
-        DriverConfig.loadApp(driver, "https://gmail.com");
+        DriverConfig.loadApp(driver, PropertiesReading.getURLs().getProperty("gmailURL"));
     }
 
     @AfterEach
