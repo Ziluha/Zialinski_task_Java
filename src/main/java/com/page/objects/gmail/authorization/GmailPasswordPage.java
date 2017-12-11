@@ -1,8 +1,7 @@
 package com.page.objects.gmail.authorization;
 
 import com.wrapper.factory.BrowserFactory;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
 import org.openqa.selenium.support.ui.*;
 
@@ -23,7 +22,7 @@ public class GmailPasswordPage {
 
     public void inputPassword(String password){
         wait = new WebDriverWait(BrowserFactory.getDriver(), 10);
-        wait.until(elem -> passwordField.isEnabled());
+        wait.until(elem -> passwordField.isDisplayed());
         passwordField.click();
         passwordField.sendKeys(password);
     }

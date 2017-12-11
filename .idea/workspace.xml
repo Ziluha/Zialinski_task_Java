@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c80ef53-c4b8-4fa4-b936-e74bfeb07846" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_testlib_23_0.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/page/objects/Page.java" afterPath="$PROJECT_DIR$/src/main/java/com/page/objects/Page.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java" />
+      <change beforePath="$PROJECT_DIR$/Zialinski_task_java.iml" afterPath="$PROJECT_DIR$/Zialinski_task_java.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,13 +31,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeleniumTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java">
+      <file leaf-file-name="AuthorizationTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="204">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,12 +48,12 @@
       <file leaf-file-name="GmailPasswordPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="221">
+              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="287">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+              <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#771#772#0" expanded="true" />
@@ -121,8 +125,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/page/objects/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java" />
       </list>
     </option>
   </component>
@@ -198,6 +204,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zialinski_task_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zialinski_task_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="objects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,7 +255,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,20 +432,11 @@
       <option name="presentableId" value="Default" />
       <updated>1512993625732</updated>
       <workItem from="1512993631598" duration="991000" />
-      <workItem from="1512994653071" duration="10947000" />
+      <workItem from="1512994653071" duration="12192000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumTest_test - 2017.12.11 at 15h 47m 28s.xml">
-      <configuration name="SeleniumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest_test - 2017.12.11 at 15h 48m 15s.xml">
-      <configuration name="SeleniumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SeleniumTest_test - 2017.12.11 at 15h 49m 14s.xml">
-      <configuration name="SeleniumTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SeleniumTest_test - 2017.12.11 at 15h 49m 43s.xml">
       <configuration name="SeleniumTest.test" configurationId="JUnit" />
     </history-entry>
@@ -452,9 +458,18 @@
     <history-entry file="SeleniumTest_test - 2017.12.11 at 18h 20m 09s.xml">
       <configuration name="SeleniumTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SeleniumTest_test - 2017.12.11 at 18h 35m 21s.xml">
+      <configuration name="SeleniumTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest_test - 2017.12.11 at 18h 35m 38s.xml">
+      <configuration name="SeleniumTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SeleniumTest_test - 2017.12.11 at 18h 37m 09s.xml">
+      <configuration name="SeleniumTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11938000" />
+    <option name="totallyTimeSpent" value="13183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -514,9 +529,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -554,16 +567,6 @@
         <state relative-caret-position="289">
           <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/config/DriverConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="71" />
-          <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
@@ -572,7 +575,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#771#772#0" expanded="true" />
@@ -581,24 +584,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/config/DriverConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="221">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="38" column="41" lean-forward="false" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state relative-caret-position="340">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
           </folding>
         </state>
       </provider>
