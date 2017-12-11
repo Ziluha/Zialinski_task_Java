@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c80ef53-c4b8-4fa4-b936-e74bfeb07846" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_common_2_0a7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_0a7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/driver/config/DriverConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/page/objects/Page.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_testlib_23_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Zialinski_task_java.iml" afterPath="$PROJECT_DIR$/Zialinski_task_java.iml" />
       <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wrapperfactory/BrowserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/wrapper/factory/BrowserFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,18 +24,18 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="426">
+              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeleniumTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SeleniumTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,20 +46,8 @@
       <file leaf-file-name="DriverConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/config/DriverConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/Page.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,9 +58,13 @@
       <file leaf-file-name="GmailLoginPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-              <folding />
+            <state relative-caret-position="185">
+              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,12 +115,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/enums/Browsers.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wrapperfactory/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/driverconfig/DriverConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/driver/config/DriverConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/page/objects/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java" />
       </list>
     </option>
   </component>
@@ -219,6 +208,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="objects" type="462c0819:PsiDirectoryNode" />
               <item name="gmail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zialinski_task_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zialinski_task_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="objects" type="462c0819:PsiDirectoryNode" />
+              <item name="gmail" type="462c0819:PsiDirectoryNode" />
+              <item name="authorization" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Zialinski_task_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -416,14 +416,11 @@
       <option name="presentableId" value="Default" />
       <updated>1512993625732</updated>
       <workItem from="1512993631598" duration="991000" />
-      <workItem from="1512994653071" duration="6529000" />
+      <workItem from="1512994653071" duration="10047000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SeleniumTest_test - 2017.12.11 at 15h 46m 17s.xml">
-      <configuration name="SeleniumTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SeleniumTest_test - 2017.12.11 at 15h 46m 48s.xml">
       <configuration name="SeleniumTest.test" configurationId="JUnit" />
     </history-entry>
@@ -451,9 +448,12 @@
     <history-entry file="SeleniumTest_test - 2017.12.11 at 16h 33m 40s.xml">
       <configuration name="SeleniumTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SeleniumTest_test - 2017.12.11 at 18h 05m 03s.xml">
+      <configuration name="SeleniumTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7520000" />
+    <option name="totallyTimeSpent" value="11038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
@@ -519,16 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wrapper/factory/BrowserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -550,36 +540,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/config/DriverConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/Page.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="426">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailLoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="185">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/Page.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/driver/config/DriverConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/zialinski/webdriver/SeleniumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="69" lean-forward="false" selection-start-line="17" selection-start-column="69" selection-end-line="17" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
