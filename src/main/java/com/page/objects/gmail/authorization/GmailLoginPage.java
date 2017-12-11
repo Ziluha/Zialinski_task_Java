@@ -28,7 +28,7 @@ public class GmailLoginPage {
         submitLoginButton.click();
     }
 
-    public boolean isErrorLabelPresented(){
+    public boolean isLoginErrorLabelPresented(){
         try {
             wait = new WebDriverWait(BrowserFactory.getDriver(), 10);
             return wait.until(elem -> loginErrorLabel.isDisplayed());

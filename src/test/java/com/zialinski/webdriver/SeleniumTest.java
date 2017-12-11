@@ -13,9 +13,10 @@ public class SeleniumTest {
         BrowserFactory bf = BrowserFactory.getInstance();
         bf.initBrowser(Browsers.name.Chrome);
         BrowserFactory.getDriver().navigate().to("https://gmail.com");
-        Page.gmailLogin().inputLogin("test.ta2sk.zel");
-        Page.gmailLogin().submitLogin();
-        Assert.assertTrue(Page.gmailLogin().isErrorLabelPresented());
+        Page.gmailLoginPage().inputLogin("test.task.zel");
+        Page.gmailLoginPage().submitLogin();
+        Page.gmailPasswordPage().inputPassword("Test1234Test");
+        Page.gmailPasswordPage().submitPassword();
         bf.CloseAllDrivers();
     }
 
