@@ -1,5 +1,7 @@
 package com.zialinski.webdriver;
 
+import com.enums.Browsers;
+import com.wrapperfactory.BrowserFactory;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -11,11 +13,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class SeleniumTest {
     @Test
     public void test(){
-        System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
-        driver.navigate().to("https://gmail.com");
-        Assert.assertTrue(driver.findElement(By.id("identifierNext")).isDisplayed());
-        driver.close();
+        BrowserFactory bf = BrowserFactory.getInstance();
+        bf.initBrowser(Browsers.name.Chrome);
+        BrowserFactory.getDriver().navigate().to("https://gmail.com");
+        Assert.assertTrue(BrowserFactory.getDriver().findElement(By.id("identifierNext")).isDisplayed());
+        bf.CloseAllDrivers();
     }
 
 }
