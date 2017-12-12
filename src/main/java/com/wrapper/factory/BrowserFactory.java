@@ -45,5 +45,6 @@ public class BrowserFactory {
     public void CloseAllDrivers(){
         for (Browsers.name key:drivers.keySet())
             drivers.get(key).quit();
+        drivers.clear();
     }
 }

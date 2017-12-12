@@ -4,9 +4,8 @@ import com.driver.config.DriverConfig;
 import com.enums.Browsers;
 import com.files.properties.PropertiesReading;
 import com.wrapper.factory.BrowserFactory;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.*;
+import org.junit.*;
 
 public class BaseTest {
     protected WebDriver driver;
@@ -29,13 +28,13 @@ public class BaseTest {
         }
     }
 
-    @BeforeEach
+    @Before
     public void initTest(){
         chooseDriverInstance(browserName);
         DriverConfig.loadApp(driver, PropertiesReading.getURLs().getProperty("gmailURL"));
     }
 
-    @AfterEach
+    @After
     public void endTest(){
         browserFactory.CloseAllDrivers();
     }
