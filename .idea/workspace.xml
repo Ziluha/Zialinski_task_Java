@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c80ef53-c4b8-4fa4-b936-e74bfeb07846" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/reports/extent/settings/GetScreenshot.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/reports/null.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/reports/extent/settings/BaseReport.java" afterPath="$PROJECT_DIR$/src/main/java/com/reports/extent/settings/BaseReport.java" />
+      <change beforePath="$PROJECT_DIR$/Zialinski_task_java.iml" afterPath="$PROJECT_DIR$/Zialinski_task_java.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTests.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/fail/FailCheckTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/fail/FailCheckTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,10 +24,12 @@
       <file leaf-file-name="AuthorizationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            <state relative-caret-position="175">
+              <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,16 +38,27 @@
       <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+            <state relative-caret-position="308">
+              <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
               <folding>
-                <element signature="e#1444#1445#0" expanded="true" />
-                <element signature="e#1501#1502#0" expanded="true" />
-                <element signature="e#1563#1564#0" expanded="true" />
-                <element signature="e#1592#1593#0" expanded="true" />
-                <element signature="e#1881#1882#0" expanded="true" />
-                <element signature="e#1934#1935#0" expanded="true" />
-                <element signature="e#1962#1963#0" expanded="true" />
+                <element signature="e#1527#1528#0" expanded="true" />
+                <element signature="e#1584#1585#0" expanded="true" />
+                <element signature="e#1646#1647#0" expanded="true" />
+                <element signature="e#1675#1676#0" expanded="true" />
+                <element signature="e#2296#2297#0" expanded="true" />
+                <element signature="e#2324#2325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetScreenshot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/reports/extent/settings/GetScreenshot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +67,7 @@
       <file leaf-file-name="BaseReport.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/reports/extent/settings/BaseReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
+            <state relative-caret-position="361">
               <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -67,7 +79,7 @@
       <file leaf-file-name="GmailPasswordPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="374">
               <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
               <folding />
             </state>
@@ -84,6 +96,16 @@
                 <element signature="e#285#286#0" expanded="true" />
                 <element signature="e#348#349#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -135,13 +157,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/page/objects/Page.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/mail/GmailInboxPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/mail/GmailDraftsPage.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/extent-config.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gmail/fail/FailCheckTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/reports/extent/settings/BaseReport.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/reports/extent/settings/GetScreenshot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java" />
       </list>
     </option>
@@ -153,8 +176,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="378" />
-    <option name="y" value="-20" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -288,6 +310,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Zialinski_task_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Zialinski_task_Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -361,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FailCheckTests and 1 more">
+  <component name="RunManager" selected="JUnit.AuthorizationTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -433,30 +464,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="DraftsTests and 2 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Zialinski_task_java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns>
-        <pattern testClass="com.gmail.drafts.DraftsTests" />
-        <pattern testClass="com.gmail.authorization.AuthorizationTests" />
-        <pattern testClass="com.gmail.fail.FailCheckTests" />
-      </patterns>
-    </configuration>
     <configuration name="FailCheckTests and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Zialinski_task_java" />
@@ -479,6 +486,31 @@
         <pattern testClass="com.gmail.fail.FailCheckTests" />
         <pattern testClass="com.gmail.authorization.AuthorizationTests" />
       </patterns>
+    </configuration>
+    <configuration name="FailCheckTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.fail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Zialinski_task_java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.gmail.fail" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.fail.FailCheckTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="FailCheckTests.checkFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -587,19 +619,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="JUnit.JUnit build" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AuthorizationTests" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AuthorizationTests.authWithValidData" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DraftsTests and 2 more" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FailCheckTests.checkFail" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.FailCheckTests and 1 more" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AuthorizationTests.authWithValidData" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FailCheckTests.checkFail" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FailCheckTests and 1 more" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FailCheckTests" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.AuthorizationTests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FailCheckTests and 1 more" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FailCheckTests.checkFail" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DraftsTests and 2 more" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AuthorizationTests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FailCheckTests" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FailCheckTests.checkFail" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.AuthorizationTests.authWithValidData" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AuthorizationTests" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FailCheckTests and 1 more" />
       </list>
     </recent_temporary>
   </component>
@@ -620,34 +652,31 @@
       <workItem from="1512994653071" duration="14653000" />
       <workItem from="1513076390379" duration="14729000" />
       <workItem from="1513091429036" duration="227000" />
-      <workItem from="1513091688772" duration="1536000" />
+      <workItem from="1513091688772" duration="3495000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AuthorizationTests_authWithValidData - 2017.12.12 at 18h 16m 17s.xml">
-      <configuration name="AuthorizationTests.authWithValidData" configurationId="JUnit" />
+    <history-entry file="AuthorizationTests - 2017.12.12 at 19h 09m 58s.xml">
+      <configuration name="AuthorizationTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AuthorizationTests_authWithValidData - 2017.12.12 at 18h 17m 48s.xml">
+    <history-entry file="AuthorizationTests_authWithValidData - 2017.12.12 at 19h 05m 10s.xml">
       <configuration name="AuthorizationTests.authWithValidData" configurationId="JUnit" />
     </history-entry>
     <history-entry file="DraftsTests_and_2_more - 2017.12.12 at 18h 23m 13s.xml">
       <configuration name="DraftsTests and 2 more" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FailCheckTests_and_1_more - 2017.12.12 at 18h 08m 01s.xml">
-      <configuration name="FailCheckTests and 1 more" configurationId="JUnit" />
+    <history-entry file="FailCheckTests - 2017.12.12 at 19h 03m 20s.xml">
+      <configuration name="FailCheckTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FailCheckTests_and_1_more - 2017.12.12 at 18h 12m 21s.xml">
-      <configuration name="FailCheckTests and 1 more" configurationId="JUnit" />
+    <history-entry file="FailCheckTests - 2017.12.12 at 19h 04m 33s.xml">
+      <configuration name="FailCheckTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FailCheckTests - 2017.12.12 at 19h 09m 15s.xml">
+      <configuration name="FailCheckTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FailCheckTests_and_1_more - 2017.12.12 at 18h 38m 33s.xml">
       <configuration name="FailCheckTests and 1 more" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FailCheckTests_checkFail - 2017.12.12 at 18h 08m 24s.xml">
-      <configuration name="FailCheckTests.checkFail" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FailCheckTests_checkFail - 2017.12.12 at 18h 08m 37s.xml">
-      <configuration name="FailCheckTests.checkFail" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FailCheckTests_checkFail - 2017.12.12 at 18h 30m 59s.xml">
       <configuration name="FailCheckTests.checkFail" configurationId="JUnit" />
@@ -655,9 +684,12 @@
     <history-entry file="FailCheckTests_checkFail - 2017.12.12 at 18h 33m 42s.xml">
       <configuration name="FailCheckTests.checkFail" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FailCheckTests_checkFail - 2017.12.12 at 19h 05m 46s.xml">
+      <configuration name="FailCheckTests.checkFail" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32136000" />
+    <option name="totallyTimeSpent" value="34095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -672,7 +704,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31362197" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3157339" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -683,7 +715,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3875396" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38331574" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -741,22 +773,14 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/reports/extent/settings/BaseReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="55" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -766,13 +790,12 @@
         <state relative-caret-position="595">
           <caret line="35" column="20" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
           <folding>
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#2296#2297#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -821,6 +844,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -830,13 +855,12 @@
         <state relative-caret-position="442">
           <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
           <folding>
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#2296#2297#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1049,11 +1073,11 @@
         <state relative-caret-position="-130">
           <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1786#1787#0" expanded="true" />
-            <element signature="e#1820#1821#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#975#976#0" expanded="false" />
+            <element signature="e#1012#1013#0" expanded="false" />
+            <element signature="e#1786#1787#0" expanded="false" />
+            <element signature="e#1820#1821#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1063,22 +1087,14 @@
         <state relative-caret-position="176">
           <caret line="29" column="5" lean-forward="false" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1451#1452#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1574#1575#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1401#1402#0" expanded="false" />
+            <element signature="e#1451#1452#0" expanded="false" />
+            <element signature="e#1495#1496#0" expanded="false" />
+            <element signature="e#1538#1539#0" expanded="false" />
+            <element signature="e#1574#1575#0" expanded="false" />
+            <element signature="e#1638#1639#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,16 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/drafts/DraftsTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -1137,6 +1143,26 @@
             <element signature="imports" expanded="true" />
             <element signature="e#288#289#0" expanded="true" />
             <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/gmail/authorization/AuthorizationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1155,15 +1181,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/page/objects/gmail/authorization/GmailPasswordPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="374">
           <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/reports/extent/settings/GetScreenshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/reports/extent/settings/BaseReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
+        <state relative-caret-position="361">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1173,16 +1209,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/config/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+        <state relative-caret-position="308">
+          <caret line="66" column="32" lean-forward="false" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
           <folding>
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1881#1882#0" expanded="true" />
-            <element signature="e#1934#1935#0" expanded="true" />
-            <element signature="e#1962#1963#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1584#1585#0" expanded="true" />
+            <element signature="e#1646#1647#0" expanded="true" />
+            <element signature="e#1675#1676#0" expanded="true" />
+            <element signature="e#2296#2297#0" expanded="true" />
+            <element signature="e#2324#2325#0" expanded="true" />
           </folding>
         </state>
       </provider>

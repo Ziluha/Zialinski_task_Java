@@ -1,23 +1,26 @@
 package com.test.config;
 
+import com.aventstack.extentreports.Status;
 import com.driver.config.DriverConfig;
 import com.enums.Browsers;
 import com.files.properties.PropertiesReading;
 import com.reports.extent.settings.BaseReport;
+import com.reports.extent.settings.GetScreenshot;
 import com.wrapper.factory.BrowserFactory;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.openqa.selenium.*;
 import org.junit.*;
 
+import java.io.IOException;
+
 public class BaseTest extends BaseReport {
     protected WebDriver driver;
     private Browsers.name browserName;
     private BrowserFactory browserFactory;
-    protected static String testSuiteName;
+    private static String screenshotPath;
 
     public BaseTest(Browsers.name browserName, String testSuiteNamee){
-        testSuiteName = testSuiteNamee;
         this.browserName = browserName;
         browserFactory = BrowserFactory.getInstance();
     }
@@ -37,7 +40,7 @@ public class BaseTest extends BaseReport {
     public TestWatcher tw = new TestWatcher() {
         @Override
         protected void failed(Throwable e, Description description) {
-            test.fail("Error message: "+e.getMessage()+"\nin method: "+description);
+            test.fail("Error message: "+e.getMessage()+"\n in method: "+description);
         }
         @Override
         protected void succeeded(Description description) {
@@ -59,6 +62,13 @@ public class BaseTest extends BaseReport {
 
     @After
     public void endTest(){
+        try {
+            screenshotPath = GetScreenshot.capture(testCaseName);
+            test.log(Status.INFO, "Snapshot below: "+
+                    test.addScreenCaptureFromPath(screenshotPath));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         browserFactory.CloseAllDrivers();
     }
 
