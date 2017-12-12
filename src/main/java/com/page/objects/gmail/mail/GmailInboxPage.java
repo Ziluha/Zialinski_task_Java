@@ -5,6 +5,7 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GmailInboxPage {
@@ -43,7 +44,8 @@ public class GmailInboxPage {
     public boolean isSavedLabelPresented(){
         try {
             wait = new WebDriverWait(BrowserFactory.getDriver(), 10);
-            return wait.until(elem -> savedLabel.isDisplayed());
+            wait.until(ExpectedConditions.visibilityOf(savedLabel));
+            return true;
         }catch (NoSuchElementException ex){
             return false;
         }

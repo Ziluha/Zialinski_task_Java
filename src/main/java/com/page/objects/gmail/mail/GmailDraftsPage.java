@@ -26,7 +26,7 @@ public class GmailDraftsPage {
     private WebElement discardDraftsButton;
 
     public boolean isDraftAdded(String messageSubject){
-        return draftsSubjectsList.get(0).getText() == messageSubject;
+        return draftsSubjectsList.get(0).getText().equals(messageSubject);
     }
 
     public boolean isDraftPageOpened(){

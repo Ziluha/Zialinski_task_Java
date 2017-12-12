@@ -8,7 +8,7 @@ import org.junit.*;
 
 public class DraftsTests extends BaseTest{
     public DraftsTests(){
-        super(Browsers.name.Chrome);
+        super(Browsers.name.Chrome, "Drafts Tests");
     }
 
     @Before
