@@ -9,6 +9,7 @@ import org.junit.*;
 public class
 
 AuthorizationTests extends BaseTest {
+
     public AuthorizationTests(){
         super(Browsers.name.Chrome, "Authorization Tests");
         testSuiteName = "Authorization Tests";

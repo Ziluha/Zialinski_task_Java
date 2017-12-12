@@ -43,7 +43,7 @@ public class GmailPasswordPage {
 
     public boolean IsLoginApplied(){
         try {
-            wait = new WebDriverWait(BrowserFactory.getDriver(), 10);
+            wait = new WebDriverWait(BrowserFactory.getDriver(), 3);
             return wait.until(elem->inputPasswordLabel.isDisplayed());
         }
         catch (Exception ex){

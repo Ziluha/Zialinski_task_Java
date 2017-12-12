@@ -14,6 +14,8 @@ public class FailCheckTests extends BaseTest {
 
     @Test
     public void checkFail(){
+        testCaseName = "Check Fail Test";
+        test = extent.createTest(testCaseName);
         Page.gmailLogin().inputLogin(PropertiesReading.getCredentials().getProperty("invalidLogin"));
         Page.gmailLogin().submitLogin();
         Assert.assertTrue("Login was not applied",

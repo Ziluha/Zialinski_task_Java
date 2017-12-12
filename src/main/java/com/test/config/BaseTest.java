@@ -5,6 +5,8 @@ import com.enums.Browsers;
 import com.files.properties.PropertiesReading;
 import com.reports.extent.settings.BaseReport;
 import com.wrapper.factory.BrowserFactory;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
 import org.openqa.selenium.*;
 import org.junit.*;
 
@@ -14,7 +16,8 @@ public class BaseTest extends BaseReport {
     private BrowserFactory browserFactory;
     protected static String testSuiteName;
 
-    public BaseTest(Browsers.name browserName, String testSuiteName){
+    public BaseTest(Browsers.name browserName, String testSuiteNamee){
+        testSuiteName = testSuiteNamee;
         this.browserName = browserName;
         browserFactory = BrowserFactory.getInstance();
     }
@@ -30,9 +33,21 @@ public class BaseTest extends BaseReport {
         }
     }
 
+    @Rule
+    public TestWatcher tw = new TestWatcher() {
+        @Override
+        protected void failed(Throwable e, Description description) {
+            test.fail("Error message: "+e.getMessage()+"\nin method: "+description);
+        }
+        @Override
+        protected void succeeded(Description description) {
+            test.pass("Passed: "+description);
+        }
+    };
+
     @BeforeClass
     public static void initReport(){
-        startReport(testSuiteName);
+        startReport();
     }
 
     @Before
@@ -44,7 +59,6 @@ public class BaseTest extends BaseReport {
 
     @After
     public void endTest(){
-        getResult();
         browserFactory.CloseAllDrivers();
     }
 

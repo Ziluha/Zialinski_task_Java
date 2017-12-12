@@ -3,6 +3,10 @@ package com.reports.extent.settings;
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import junit.framework.TestResult;
+import org.junit.rules.TestWatcher;
+import org.junit.runner.Description;
+
+import java.io.File;
 
 public class BaseReport {
     protected static ExtentReports extent;
@@ -10,20 +14,21 @@ public class BaseReport {
     public static String testCaseName;
     private static ExtentHtmlReporter htmlReporter;
 
-    public static void startReport(String testSuiteName){
+    public static void startReport(){
+        int i = 1;
         String extentConfigName = "/extent-config.xml";
-        String reportPath = System.getProperty("user.dir")+"/reports/"+testSuiteName+".html";
+        String reportPath = System.getProperty("user.dir")+"/reports/Zialinski Task%o.html";
+        File f = new File(reportPath);
         htmlReporter = new ExtentHtmlReporter(reportPath);
+        while(f.exists() && !f.isDirectory()){
+            String finalPath = String.format(reportPath, i);
+            htmlReporter = new ExtentHtmlReporter(finalPath);
+            f=new File(finalPath);
+            ++i;
+        }
         htmlReporter.loadConfig(System.getProperty("user.dir")+extentConfigName);
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
-    }
-
-    public void getResult(){
-        TestResult result = new TestResult();
-        if(result.failureCount()>0){
-            test.fail(result.errors().toString());
-        }
     }
 
     public static void stopReport(){
