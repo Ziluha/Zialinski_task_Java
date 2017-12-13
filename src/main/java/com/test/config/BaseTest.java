@@ -20,7 +20,7 @@ public class BaseTest extends BaseReport {
     private BrowserFactory browserFactory;
     private static String screenshotPath;
 
-    public BaseTest(Browsers.name browserName, String testSuiteNamee){
+    public BaseTest(Browsers.name browserName){
         this.browserName = browserName;
         browserFactory = BrowserFactory.getInstance();
     }

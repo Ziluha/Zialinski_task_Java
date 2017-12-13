@@ -9,7 +9,7 @@ import org.junit.Test;
 
 public class FailCheckTests extends BaseTest {
     public FailCheckTests(){
-        super(Browsers.name.Chrome, "Fail Check Tests");
+        super(Browsers.name.Chrome);
     }
 
     @Test

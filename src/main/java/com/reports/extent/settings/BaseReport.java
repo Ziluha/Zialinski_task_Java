@@ -10,7 +10,7 @@ import java.io.File;
 
 public class BaseReport {
     protected static ExtentReports extent;
-    protected static ExtentTest test;
+    public static ExtentTest test;
     public static String testCaseName;
     private static ExtentHtmlReporter htmlReporter;
 

@@ -11,7 +11,7 @@ public class
 AuthorizationTests extends BaseTest {
 
     public AuthorizationTests(){
-        super(Browsers.name.Chrome, "Authorization Tests");
+        super(Browsers.name.Chrome);
     }
     @Test
     public void authWithValidData(){

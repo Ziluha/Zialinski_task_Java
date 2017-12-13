@@ -9,7 +9,7 @@ import org.junit.rules.TestWatcher;
 
 public class DraftsTests extends BaseTest{
     public DraftsTests(){
-        super(Browsers.name.Chrome, "Drafts Tests");
+        super(Browsers.name.Chrome);
     }
 
     @Before
