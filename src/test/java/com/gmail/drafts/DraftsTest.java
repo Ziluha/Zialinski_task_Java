@@ -5,10 +5,9 @@ import com.files.properties.PropertiesReading;
 import com.page.objects.Page;
 import com.test.config.BaseTest;
 import org.junit.*;
-import org.junit.rules.TestWatcher;
 
-public class DraftsTests extends BaseTest{
-    public DraftsTests(){
+public class DraftsTest extends BaseTest{
+    public DraftsTest(){
         super(Browsers.name.Chrome);
     }
 

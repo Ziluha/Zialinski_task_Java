@@ -6,11 +6,9 @@ import com.page.objects.Page;
 import com.test.config.BaseTest;
 import org.junit.*;
 
-public class
+public class AuthorizationTest extends BaseTest {
 
-AuthorizationTests extends BaseTest {
-
-    public AuthorizationTests(){
+    public AuthorizationTest(){
         super(Browsers.name.Chrome);
     }
     @Test

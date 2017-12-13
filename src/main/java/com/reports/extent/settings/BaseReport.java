@@ -2,9 +2,6 @@ package com.reports.extent.settings;
 
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
-import junit.framework.TestResult;
-import org.junit.rules.TestWatcher;
-import org.junit.runner.Description;
 
 import java.io.File;
 

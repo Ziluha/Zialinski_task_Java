@@ -7,8 +7,8 @@ import com.test.config.BaseTest;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class FailCheckTests extends BaseTest {
-    public FailCheckTests(){
+public class FailCheckTest extends BaseTest {
+    public FailCheckTest(){
         super(Browsers.name.Chrome);
     }
 

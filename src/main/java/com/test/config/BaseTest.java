@@ -7,8 +7,8 @@ import com.files.properties.PropertiesReading;
 import com.reports.extent.settings.BaseReport;
 import com.reports.extent.settings.GetScreenshot;
 import com.wrapper.factory.BrowserFactory;
-import org.junit.rules.TestWatcher;
-import org.junit.runner.Description;
+import org.junit.rules.*;
+import org.junit.runner.*;
 import org.openqa.selenium.*;
 import org.junit.*;
 
