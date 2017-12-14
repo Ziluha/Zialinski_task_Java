@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.gmail.authorization.AuthorizationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.808 sec

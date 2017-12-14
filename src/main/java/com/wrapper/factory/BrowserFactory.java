@@ -29,13 +29,13 @@ public class BrowserFactory {
     public WebDriver initBrowser(Browsers.name browser){
         switch (browser){
             case Chrome:
-                System.setProperty("webdriver.chrome.driver", "D:\\ChromeDriver\\chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
                 driver = new ChromeDriver();
                 if(!drivers.containsKey(Browsers.name.Chrome))
                     drivers.put(Browsers.name.Chrome, driver);
                 return startEventFiring(driver);
             case Firefox:
-                System.setProperty("webdriver.gecko.driver", "D:\\FirefoxDriver\\geckodriver.exe");
+                System.setProperty("webdriver.gecko.driver", "drivers/geckodriver.exe");
                 driver = new FirefoxDriver();
                 if(!drivers.containsKey(Browsers.name.Firefox))
                     drivers.put(Browsers.name.Firefox, driver);
