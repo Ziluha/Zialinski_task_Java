@@ -82,8 +82,8 @@ public class BaseTest extends BaseReport {
     @Parameterized.Parameters
     public static Collection<Object> data() {
         Object[][] data = new Object[][]{
-                { "chrome"},
-                {"firefox"}};
+                { Browsers.name.Chrome},
+                {Browsers.name.Firefox}};
         return Arrays.asList(data);
     }
 }
