@@ -1,4 +1,42 @@
 -------------------------------------------------------------------------------
 Test set: com.gmail.authorization.AuthorizationTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.808 sec
+Tests run: 13, Failures: 0, Errors: 12, Skipped: 0, Time elapsed: 50.88 s <<< FAILURE! - in com.gmail.authorization.AuthorizationTest
+authWithInvalidLogin[0](com.gmail.authorization.AuthorizationTest)  Time elapsed: 24.934 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.gmail.authorization.AuthorizationTest.authWithInvalidLogin(AuthorizationTest.java:31)
+
+authWithInvalidLogin[1](com.gmail.authorization.AuthorizationTest)  Time elapsed: 14.909 s  <<< ERROR!
+java.lang.NullPointerException
+
+authWithInvalidLogin[1](com.gmail.authorization.AuthorizationTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+authWithInvalidLogin[1](com.gmail.authorization.AuthorizationTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+authWithInvalidPassword[1](com.gmail.authorization.AuthorizationTest)  Time elapsed: 20.863 s  <<< ERROR!
+java.lang.NullPointerException
+
+authWithInvalidLogin[0](com.gmail.authorization.AuthorizationTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+authWithValidData[0](com.gmail.authorization.AuthorizationTest)  Time elapsed: 16.081 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.gmail.authorization.AuthorizationTest.authWithValidData(AuthorizationTest.java:18)
+
+authWithInvalidPassword[1](com.gmail.authorization.AuthorizationTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+authWithInvalidPassword[1](com.gmail.authorization.AuthorizationTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+authWithValidData[1](com.gmail.authorization.AuthorizationTest)  Time elapsed: 15.063 s  <<< ERROR!
+java.lang.NullPointerException
+
+authWithValidData[0](com.gmail.authorization.AuthorizationTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+
+authWithValidData[1](com.gmail.authorization.AuthorizationTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+

@@ -4,16 +4,18 @@ import com.aventstack.extentreports.Status;
 import com.driver.config.DriverConfig;
 import com.enums.Browsers;
 import com.files.properties.PropertiesReading;
-import com.reports.extent.settings.BaseReport;
-import com.reports.extent.settings.GetScreenshot;
+import com.reports.extent.settings.*;
 import com.wrapper.factory.BrowserFactory;
 import org.junit.rules.*;
 import org.junit.runner.*;
+import org.junit.runners.Parameterized;
 import org.openqa.selenium.*;
 import org.junit.*;
 
 import java.io.IOException;
+import java.util.*;
 
+@RunWith(value = Parameterized.class)
 public class BaseTest extends BaseReport {
     protected WebDriver driver;
     private Browsers.name browserName;
@@ -77,4 +79,11 @@ public class BaseTest extends BaseReport {
         stopReport();
     }
 
+    @Parameterized.Parameters
+    public static Collection<Object> data() {
+        Object[][] data = new Object[][]{
+                { "chrome"},
+                {"firefox"}};
+        return Arrays.asList(data);
+    }
 }

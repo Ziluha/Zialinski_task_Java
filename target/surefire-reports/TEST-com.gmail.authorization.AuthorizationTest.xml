@@ -1,70 +1,172 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.gmail.authorization.AuthorizationTest" time="30.231" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.gmail.authorization.AuthorizationTest" time="50.88" tests="13" errors="12" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="9.0.1+11"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Github_Repos\Zialinski_task_Java"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=";"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="user.script" value=""/>
-    <property name="user.country" value="US"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\Github_Repos\Zialinski_task_Java"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="9.0.1+11"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\IVAN~1.ZIA\AppData\Local\Temp\"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.variant" value=""/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Maven\bin\..\bin\m2.conf"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NUnit.org\nunit-console;C:\xampp\apache\bin\httpd.exe;C:\Maven\bin;C:\Program Files\Java\jdk-9.0.1\bin;D:\ChromeDriver;C:\Users\ivan.zialinski\AppData\Local\Microsoft\WindowsApps;;."/>
-    <property name="maven.conf" value="C:\Maven\bin\../conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="53.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Maven\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\ivan.zialinski"/>
-    <property name="user.timezone" value="Europe/Moscow"/>
-    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
-    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="9"/>
-    <property name="user.name" value="ivan.zialinski"/>
-    <property name="java.class.path" value="C:\Maven\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
-    <property name="java.vm.specification.version" value="9"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="webdriver.chrome.driver" value="drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Github_Repos\Zialinski_task_Java\target\test-classes;D:\Github_Repos\Zialinski_task_Java\target\classes;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\ivan.zialinski\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ivan.zialinski\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ivan.zialinski\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ivan.zialinski\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ivan.zialinski\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\ivan.zialinski\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ivan.zialinski\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\ivan.zialinski\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ivan.zialinski\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ivan.zialinski\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ivan.zialinski\.m2\repository\com\aventstack\extentreports\3.1.1\extentreports-3.1.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ivan.zialinski\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ivan.zialinski\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ivan.zialinski\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ivan.zialinski\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\ivan.zialinski\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\ivan.zialinski\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\ivan.zialinski\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ivan.zialinski\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\IVAN~1.ZIA\AppData\Local\Temp\surefire12927172560246798154\surefirebooter17177102098764188637.jar C:\Users\ivan.zialinski\AppData\Local\Temp\surefire12927172560246798154 2017-12-15T15-32-02_485-jvmRun1 surefire5426793410891658811tmp surefire_27568448541489462820tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Github_Repos\Zialinski_task_Java\target\test-classes;D:\Github_Repos\Zialinski_task_Java\target\classes;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-java\3.8.1\selenium-java-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-api\3.8.1\selenium-api-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.8.1\selenium-edge-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.8.1\selenium-firefox-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.8.1\selenium-ie-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.8.1\selenium-opera-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.8.1\selenium-remote-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.8.1\selenium-safari-driver-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\seleniumhq\selenium\selenium-support\3.8.1\selenium-support-3.8.1.jar;C:\Users\ivan.zialinski\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\ivan.zialinski\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ivan.zialinski\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\ivan.zialinski\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ivan.zialinski\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\ivan.zialinski\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\ivan.zialinski\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ivan.zialinski\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\ivan.zialinski\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ivan.zialinski\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\ivan.zialinski\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\ivan.zialinski\.m2\repository\com\aventstack\extentreports\3.1.1\extentreports-3.1.1.jar;C:\Users\ivan.zialinski\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ivan.zialinski\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\ivan.zialinski\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\ivan.zialinski\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\ivan.zialinski\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\ivan.zialinski\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\ivan.zialinski\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\ivan.zialinski\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ivan.zialinski\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ivan.zialinski"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="9.0.1"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
-    <property name="maven.home" value="C:\Maven\bin\.."/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-9.0.1"/>
     <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Github_Repos\Zialinski_task_Java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\IVAN~1.ZIA\AppData\Local\Temp\surefire12927172560246798154\surefirebooter17177102098764188637.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="9.0.1+11"/>
+    <property name="user.name" value="ivan.zialinski"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ivan.zialinski\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\IVAN~1.ZIA\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2017.3"/>
+    <property name="java.version" value="9.0.1"/>
+    <property name="user.dir" value="D:\Github_Repos\Zialinski_task_Java"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="drivers/geckodriver.exe"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\NUnit.org\nunit-console;C:\xampp\apache\bin\httpd.exe;C:\Maven\bin;C:\Program Files\Java\jdk-9.0.1\bin;D:\ChromeDriver;D:\FirefoxDriver;C:\Users\ivan.zialinski\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="9.0.1+11"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
-    <property name="sun.desktop" value="windows"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.class.version" value="53.0"/>
   </properties>
-  <testcase classname="com.gmail.authorization.AuthorizationTest" name="authWithInvalidLogin" time="8.334"/>
-  <testcase classname="com.gmail.authorization.AuthorizationTest" name="authWithInvalidPassword" time="8.812"/>
-  <testcase classname="com.gmail.authorization.AuthorizationTest" name="authWithValidDataTest" time="13.085"/>
+  <testcase name="authWithInvalidLogin[0]" classname="com.gmail.authorization.AuthorizationTest" time="24.934">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.gmail.authorization.AuthorizationTest.authWithInvalidLogin(AuthorizationTest.java:31)
+</error>
+    <system-out><![CDATA[Navigating to https://gmail.com
+Navigated to https://gmail.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 2037
+Only local connections are allowed.
+Dec 15, 2017 3:32:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="authWithInvalidLogin[0]" classname="com.gmail.authorization.AuthorizationTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="authWithInvalidLogin[1]" classname="com.gmail.authorization.AuthorizationTest" time="14.909">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-err><![CDATA[1513341126141	geckodriver	INFO	geckodriver 0.19.0
+1513341126149	geckodriver	INFO	Listening on 127.0.0.1:26149
+1513341126932	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\IVAN~1.ZIA\\AppData\\Local\\Temp\\rust_mozprofile.pVQ3eJk1LfUO"
+1513341127490	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1513341131057	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ivan.zialinski\AppData\Local\openvr\openvrpaths.vrpath
+[Child 16608] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1513341139423	Marionette	INFO	Listening on port 52555
+1513341139579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513341139646	Marionette	DEBUG	Register listener.js for window 4294967297
+Dec 15, 2017 3:32:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Unable to read VR Path Registry from C:\Users\ivan.zialinski\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 994: TypeError: win is null
+]]></system-err>
+  </testcase>
+  <testcase name="authWithInvalidLogin[1]" classname="com.gmail.authorization.AuthorizationTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="authWithInvalidLogin[1]" classname="com.gmail.authorization.AuthorizationTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="authWithInvalidPassword[1]" classname="com.gmail.authorization.AuthorizationTest" time="20.863">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-err><![CDATA[1513341139968	geckodriver	INFO	geckodriver 0.19.0
+1513341139980	geckodriver	INFO	Listening on 127.0.0.1:45270
+1513341140353	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\IVAN~1.ZIA\\AppData\\Local\\Temp\\rust_mozprofile.VI91WmFMoaRu"
+1513341141315	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1513341145533	Marionette	INFO	Enabled via --marionette
+1513341159948	Marionette	INFO	Listening on port 52701
+1513341160442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513341160499	Marionette	DEBUG	Register listener.js for window 4294967297
+Dec 15, 2017 3:32:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="authWithInvalidPassword[1]" classname="com.gmail.authorization.AuthorizationTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="authWithInvalidPassword[1]" classname="com.gmail.authorization.AuthorizationTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="authWithInvalidPassword[0]" classname="com.gmail.authorization.AuthorizationTest" time="9.752"/>
+  <testcase name="authWithValidData[0]" classname="com.gmail.authorization.AuthorizationTest" time="16.081">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.gmail.authorization.AuthorizationTest.authWithValidData(AuthorizationTest.java:18)
+</error>
+    <system-out><![CDATA[Navigating to https://gmail.com
+Navigated to https://gmail.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 33908
+Only local connections are allowed.
+Dec 15, 2017 3:32:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="authWithValidData[0]" classname="com.gmail.authorization.AuthorizationTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="authWithValidData[1]" classname="com.gmail.authorization.AuthorizationTest" time="15.063">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-err><![CDATA[1513341160759	geckodriver	INFO	geckodriver 0.19.0
+1513341160768	geckodriver	INFO	Listening on 127.0.0.1:7084
+1513341161372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\IVAN~1.ZIA\\AppData\\Local\\Temp\\rust_mozprofile.hMc9SYQ3Jl2x"
+1513341162500	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1513341168315	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\ivan.zialinski\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17944] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17944] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1513341175156	Marionette	INFO	Listening on port 52953
+1513341175591	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513341175638	Marionette	DEBUG	Register listener.js for window 4294967297
+Dec 15, 2017 3:32:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="authWithValidData[1]" classname="com.gmail.authorization.AuthorizationTest" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
 </testsuite>
