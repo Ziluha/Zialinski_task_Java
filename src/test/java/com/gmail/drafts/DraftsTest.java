@@ -7,8 +7,9 @@ import com.test.config.BaseTest;
 import org.junit.*;
 
 public class DraftsTest extends BaseTest{
-    public DraftsTest(){
-        super(Browsers.name.Chrome);
+
+    public DraftsTest(Browsers.name browserName) {
+        super(browserName);
     }
 
     @Before
